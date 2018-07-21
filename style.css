@@ -1,41 +1,40 @@
-nav {
-  width: 100%; 
-  height: 38px;
-  background-color: #8facbb;
-  float:left;
+body{
+  background-color: rgb(211, 221, 218);
+  margin-top: 80px; 
+/*  to offset 80px from navbar fixed positioning  */
+  padding: 30px 100px 0px 100px; /* text or content in center*/
+  font-family: Cabin, sans-serif;
 }
-nav a {
-  display: block; 
-  float: left;
-  font-family: sans-serif;
-  font-size: 9px;
-  color: white;
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  text-decoration: none;
+header {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
 }
-nav a:hover {
-  background-color: #17b0cf;
-}
-#logo {
-  font-family: 'Hind', sans-serif;
-  font-size: 30px;
-  letter-spacing: -2px;
-  text-shadow: 1px 1px 2px #c4c4c4;
-  padding-left: 20px;
-  padding-right: 40px;
-  margin-right: 10px;
-  margin-top: -20px;
-}
-section {
-  float:left;
-}
-aside {
-  float:right;
-  display:block;
-}
-h2 {
-  font-family: 'Hind', sans-serif;
+  header li {
+    margin: 20px;
+  }
+  header li a{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  header *{
+    display: inline;
+  }
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #ffffff;
+  text-align: center;
 }
